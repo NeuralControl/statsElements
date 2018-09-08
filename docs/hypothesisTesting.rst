@@ -1,4 +1,4 @@
-Hypothesis testing
+Hypothesis Testing
 ==================
 
 Steps
@@ -12,10 +12,18 @@ We then clearly define the variables that will be used
 Establish the Hypothesis
 ........................
 (left-tailed, right-tailed, or two tailed test)
+Left Tail test
+    Parameter < given value
+Right Tail test
+    Parameter > given value
+Two tailed test
+    Parameter doesn’t equal value
 
 State the Hypotheses
 ..............................
 State the Null and Alternative Hypothesis (Ha)
+- Null Hypothesis (Ho): An hypothesis associated with a contradiction to a theory we want to prove
+- Alternative Hypothesis (Ha): An hypothesis associated with a theory we want to prove
 
 Select the appropriate statistical test
 .......................................
@@ -30,7 +38,20 @@ parametric test when:
 
 State the desired Alpha and Beta
 ................................
-asd
++-----------+--------------+---------------+
+|           | H0 is True   | Ha is True    |
++-----------+--------------+---------------+
+| Accept H0 | good         | Type II Error |
++-----------+--------------+---------------+
+| Reject H0 | Type I Error | good          |
++-----------+--------------+---------------+
+
+Alpha, Significance level
+    Probability of type I error
+
+
+
+
 
 
 Establish the Effect Size
@@ -51,9 +72,14 @@ asd
 
 Calculate the test statistic
 ............................
+- Test Statistic: Value calculated from a sample often to summarize the sample
+
 
 Determine the p-value
 .....................
+P-value
+    Smallest level of significance that would lead to a rejection of Ho with the given data.
+
 
 If p-Value is < than alpha-risk, reject Ho and accept Ha
 
