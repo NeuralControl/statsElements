@@ -1,3 +1,4 @@
+.. module:: sphinx.ext.mathbase
 
 .. toctree::
    :hidden:
