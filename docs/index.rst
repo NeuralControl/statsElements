@@ -5,6 +5,7 @@
    :caption: Contents:
 
    readme
+   hypothesisTesting
    examples
 
 
