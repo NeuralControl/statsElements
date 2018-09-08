@@ -30,7 +30,7 @@ Normal (=Gaussian) distribution
     Entirely defined by two parameters: means and std.
 
 .. figure:: img/normalDistribution.png
-    :figwidth: 250px
+    :figwidth: 300px
     :align: center
 
     src:wikipedia/Normal_distribution
