@@ -26,16 +26,17 @@ Variance: std^2
 
 Distributions
 -------------
-.. figure:: img/normalDistribution.png
-    :figwidth: 150px
-    :align: right
-
-    src:wikipedia/Normal_distribution
-
 Normal (=Gaussian) distribution
     Most common, unimodal, symmetrical.
     Other distributions tend to normalize when we increase sample size.
     Entirely defined by two parameters: means and std.
+
+.. figure:: img/normalDistribution.png
+    :figwidth: 250px
+    :align: center
+
+    src:wikipedia/Normal_distribution
+
 
 
 
