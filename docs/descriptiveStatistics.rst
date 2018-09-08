@@ -22,6 +22,7 @@ Interquartile Range: Range between top and bottom quartile. Shows where the midd
 Standard Deviation: Average deviation from the mean. Measures homogeneity of individual values. std = sqrt( (sum(xi-xm)^2)/(n-1) )
 Variance: std^2
 
+
 Distributions
 -------------
 Normal (=Gaussian) distribution
