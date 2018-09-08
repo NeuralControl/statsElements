@@ -7,7 +7,7 @@ Measuring Location
     :figwidth: 150px
     :align: right
 
-    src: wikipedia
+    src: wikipedia/probability_density_function
 
 
 Mean: Sum observations / number of observations
@@ -30,7 +30,7 @@ Distributions
     :figwidth: 150px
     :align: right
 
-   src:wikipedia/Normal_distribution
+    src:wikipedia/Normal_distribution
 
 Normal (=Gaussian) distribution
     Most common, unimodal, symmetrical.
