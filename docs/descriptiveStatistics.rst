@@ -8,6 +8,7 @@ Median: Central Value (less sensitive to outliers)
 Mode: Most common value
 
 .. figure:: img/modeMedianMean.png
+
        :figwidth: 200px
        :align: center
 
