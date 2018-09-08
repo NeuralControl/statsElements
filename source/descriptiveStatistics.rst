@@ -1,23 +1,19 @@
 Descriptive Statistics
 ======================
-
-Measuring Location
-------------------
 .. figure:: img/modeMedianMean.png
     :figwidth: 150px
     :align: right
 
-    src: wikipedia/probability_density_function
+    src: wikipedia/probability_density_function\
 
-Mean
-    Sum observations / number of observations
-Median
-    Central Value (less sensitive to outliers)
+Measuring Location
+------------------
 Mode
     Most common value
-
-
-
+Median
+    Central Value (less sensitive to outliers)
+Mean
+    Sum observations / number of observations
 
 Measuring Variability
 ---------------------
