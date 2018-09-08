@@ -78,8 +78,8 @@ Calculate the test statistic
 Determine the p-value
 .....................
 P-value
-    Smallest level of significance that would lead to a rejection of Ho with the given data.
-
+    - Smallest level of significance that would lead to a rejection of Ho with the given data.
+    - Probability of wrongly rejecting Ho. Small p-value indicates strong evidence against Ho
 
 If p-Value is < than alpha-risk, reject Ho and accept Ha
 
