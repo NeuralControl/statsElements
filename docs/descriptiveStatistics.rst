@@ -7,6 +7,11 @@ Mean: Sum observations / number of observations
 Median: Central Value (less sensitive to outliers)
 Mode: Most common value
 
+.. image:: img/modeMedianMean.png
+    :width: 500pt
+
+https://en.wikipedia.org/wiki/Probability_density_function
+
 Measuring Variability
 ---------------------
 Range: Largest observation – smallest observation
@@ -17,12 +22,18 @@ Variance: std^2
 
 Distributions
 -------------
-Normal distribution     aka Gaussian.
-Most common, unimodal, symmetrical.
-Other distributions tend to normalize when we increase sample size.
-Entirely defined by two parameters: means and std.
-68.3% of the data is within 1std.    95.4% of the data is within 2std.    99.7% of the data is within 3std.
- 
+Normal (=Gaussian) distribution
+    Most common, unimodal, symmetrical.
+    Other distributions tend to normalize when we increase sample size.
+    Entirely defined by two parameters: means and std.
+
+    .. image:: img/normalDistribution.png
+        :width: 500pt
+
+https://en.wikipedia.org/wiki/Normal_distribution
+
+
+
 Central Limit Theorem:
     given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
  
