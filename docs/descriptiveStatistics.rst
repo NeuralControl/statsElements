@@ -9,7 +9,6 @@ Measuring Location
 
     src: wikipedia/probability_density_function
 
-
 Mean: Sum observations / number of observations
 Median: Central Value (less sensitive to outliers)
 Mode: Most common value
