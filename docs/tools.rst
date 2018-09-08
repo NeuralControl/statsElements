@@ -3,6 +3,7 @@ Useful tools
 
 G*Power: Statistical Power Analyses for Windows and Mac
 -------------------------------------------------------
+
 .. _g*power: http://www.gpower.hhu.de/
 
 G*Power is a tool to compute statistical power analyses for many different t tests, F tests,
