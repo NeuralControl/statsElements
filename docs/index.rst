@@ -9,7 +9,7 @@
 
 
 .. include:: readme.rst
-.. include:: examples.rst
+.. include:: hypothesisTesting.md
 
 
 Indices and tables
