@@ -30,11 +30,15 @@ Standard Deviation
 Variance
     :math: std^2
 
+xxx
+
 .. math::
 
-    \sqrt[n]{1+x+x^2+x^3+\dots+x^n}
+   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
 
-:math:`\\alpha`
+Or if you want to write inline you can use this:
+
+:math:`\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
 
 
 Distributions
