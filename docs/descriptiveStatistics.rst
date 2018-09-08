@@ -32,7 +32,7 @@ Variance
 
 .. math::
 
-    `\sqrt[n]{1+x+x^2+x^3+\dots+x^n}`
+    \sqrt[n]{1+x+x^2+x^3+\dots+x^n}
 
 :math:`\\alpha`
 
