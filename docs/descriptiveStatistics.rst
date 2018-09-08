@@ -30,7 +30,7 @@ Standard Deviation
 Variance
     :math: std^2
 
-.. math:
+.. math::
 
     `\sqrt[n]{1+x+x^2+x^3+\dots+x^n}`
 
