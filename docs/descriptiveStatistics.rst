@@ -8,7 +8,7 @@ Median: Central Value (less sensitive to outliers)
 Mode: Most common value
 
 .. image:: img/modeMedianMean.png
-       :width: 100px
+       :width: 200px
        :align: right
 
 https://en.wikipedia.org/wiki/Probability_density_function
@@ -28,10 +28,7 @@ Normal (=Gaussian) distribution
     Other distributions tend to normalize when we increase sample size.
     Entirely defined by two parameters: means and std.
 
-
 .. figure:: img/normalDistribution.png
-       :width: 300px
-       :align: right
 
    https://en.wikipedia.org/wiki/Normal_distribution
 
