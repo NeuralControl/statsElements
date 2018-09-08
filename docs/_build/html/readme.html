@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>jazzElements &mdash; jazzElements  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="jazzElements  documentation" href="index.html"/>
+        <link rel="next" title="Examples" href="examples.html"/>
+        <link rel="prev" title="jazzElements" href="index.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> jazzElements
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">jazzElements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#scale">Scale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#progressions">Progressions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="examples.html#training-on-major-2-5-1s">Training on major 2-5-1s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples.html#training-on-minor-2-5-1s">Training on minor 2-5-1s</a></li>
+<li class="toctree-l3"><a class="reference internal" href="examples.html#implemented-cadence-graphs">Implemented cadence Graphs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="note.html">Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="note.html#uses">Uses</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chord.html">Chords</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chord.html#basic-attributes">Basic attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chord.html#basic-members">Basic members</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scale.html">Scales</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scale.html#basic-operations">Basic operations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="progression.html">Progression</a></li>
+<li class="toctree-l1"><a class="reference internal" href="annotate.html">Annotate</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">jazzElements</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>jazzElements</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/readme.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="jazzelements">
+<h1>jazzElements<a class="headerlink" href="#jazzelements" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://jazzelements.readthedocs.io/en/latest/?badge=latest"><img alt="Documentation Status" src="https://readthedocs.org/projects/jazzelements/badge/?version=latest" /></a>
+<p>The primary goal of this package is to help in the analysis of a chord progression and facilitate learning of jazz standards.
+It will also suggest alternative chords, progressions, scales etc
+For example, we can enter a progression as a string, ask to analyse then plot the results.
+Each cell shows the chord, its degree in the corresponding scale, and optionally the corresponding notes.</p>
+<p>The full documentation can be found on <a class="reference external" href="https://jazzelements.readthedocs.io/en/latest/?badge=latest">ReadTheDocs</a></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p>The best resource i found to learn about jazz and music theory, check it out:</p>
+<ul class="last simple">
+<li>“<a class="reference external" href="https://www.youtube.com/c/walkthatbass">WalkThatBass</a>” youtube channel.</li>
+<li>“<a class="reference external" href="http://www.thejazzpianosite.com/jazz-piano-lessons">TheJazzPianoSite</a>” website.</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">I am coding this in parallel to trying to finally understand music theory.
+This is in active dev with surely a good amount of hacks and bugs. Feel free to contribute/submit issues or ideas.</p>
+</div>
+<p>A chord progression can be defined using a chord string (e.g. ‘<a href="#id3"><span class="problematic" id="id4">|DbM7,E9|AM7,C9|FM7|Bm9,E9|AM7,C9|FM7,Ab9|</span></a>’) or using a named progression (e.g. ‘Misty’)
+We can then annotate a chord progression:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">prg</span> <span class="o">=</span> <span class="n">Progression</span><span class="p">(</span><span class="s1">&#39;Misty&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">prg</span><span class="o">.</span><span class="n">annotate</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">prg</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;fn&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>and plot the harmonic analysis</dt>
+<dd><a class="first last reference internal image-reference" href="_images/MistyFn.png"><img alt="_images/MistyFn.png" src="_images/MistyFn.png" style="width: 500pt;" /></a>
+</dd>
+</dl>
+<p>or a keyboard representation of chords (top) and scales (bottom):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">prg</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;kbd&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/MistyKbd.png"><img alt="_images/MistyKbd.png" src="_images/MistyKbd.png" style="width: 500pt;" /></a>
+<p>The analysis can be made for example using the major/minor chord progression from the book Tonal Harmony by Stefan Kostka</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><div class="first last figure" id="id1">
+<img alt="_images/seqMajKostka.png" src="_images/seqMajKostka.png" />
+<p class="caption"><span class="caption-text">Major Kostka Progression</span></p>
+</div>
+</td>
+<td><div class="first last figure" id="id2">
+<img alt="_images/seqMinKostka.png" src="_images/seqMinKostka.png" />
+<p class="caption"><span class="caption-text">Minor Kostka Progression</span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Plot all Chords in a given Scale:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">Scale</span><span class="p">(</span><span class="s1">&#39;C minor&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">plotChords</span><span class="p">()</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/allChords.png"><img alt="_images/allChords.png" src="_images/allChords.png" style="width: 500pt;" /></a>
+<p>Plot m7 for all roots:</p>
+<a class="reference internal image-reference" href="_images/allKeys.png"><img alt="_images/allKeys.png" src="_images/allKeys.png" style="width: 500pt;" /></a>
+<p>Plot implemented chords:</p>
+<a class="reference internal image-reference" href="_images/implementedChords.png"><img alt="_images/implementedChords.png" src="_images/implementedChords.png" style="width: 500pt;" /></a>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="jazzElements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, jazzElements.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
