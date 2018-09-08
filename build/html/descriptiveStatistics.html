@@ -36,8 +36,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="statsElements  documentation" href="index.html"/>
-        <link rel="next" title="Hypothesis Testing" href="hypothesisTesting.html"/>
-        <link rel="prev" title="statsElements" href="readme.html"/> 
+        <link rel="next" title="Hypothesis Testing Steps" href="hypothesisTesting.html"/>
+        <link rel="prev" title="Indices and tables" href="index.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -88,14 +88,13 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="readme.html">statsElements</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Descriptive Statistics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#measuring-location">Measuring Location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#measuring-variability">Measuring Variability</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#distributions">Distributions</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="hypothesisTesting.html">Hypothesis Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hypothesisTesting.html">Hypothesis Testing Steps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tools.html">Useful Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
 </ul>
@@ -163,19 +162,19 @@
             
   <div class="section" id="descriptive-statistics">
 <h1>Descriptive Statistics<a class="headerlink" href="#descriptive-statistics" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="measuring-location">
-<h2>Measuring Location<a class="headerlink" href="#measuring-location" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1" style="width: 150px">
 <img alt="_images/modeMedianMean.png" src="_images/modeMedianMean.png" />
-<p class="caption"><span class="caption-text">src: wikipedia/probability_density_function</span></p>
+<p class="caption"><span class="caption-text">wikipedia/probability_density_function</span></p>
 </div>
+<div class="section" id="measuring-location">
+<h2>Measuring Location<a class="headerlink" href="#measuring-location" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
-<dt>Mean</dt>
-<dd>Sum observations / number of observations</dd>
-<dt>Median</dt>
-<dd>Central Value (less sensitive to outliers)</dd>
 <dt>Mode</dt>
 <dd>Most common value</dd>
+<dt>Median</dt>
+<dd>Central Value (less sensitive to outliers)</dd>
+<dt>Mean</dt>
+<dd>Sum observations / number of observations</dd>
 </dl>
 </div>
 <div class="section" id="measuring-variability">
@@ -192,8 +191,6 @@
 <div class="last math notranslate nohighlight">
 \[std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}\]</div>
 </dd>
-<dt>Variance</dt>
-<dd>squared standard deviation</dd>
 </dl>
 </div>
 <div class="section" id="distributions">
@@ -209,8 +206,6 @@ Entirely defined by two parameters: means and std.</dd>
 <p class="caption"><span class="caption-text">src:wikipedia/Normal_distribution</span></p>
 </div>
 <dl class="docutils">
-<dt>Central Limit Theorem</dt>
-<dd>given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.</dd>
 <dt>Law Of Large Numbers</dt>
 <dd>As a sample size grows, its mean will get closer and closer to the average of the whole population.</dd>
 <dt>Standard Error</dt>
@@ -219,9 +214,11 @@ Entirely defined by two parameters: means and std.</dd>
 \[SE =  \frac{std}{\sqrt{n}}\]</div>
 </dd>
 <dt>95% Confidence Interval</dt>
-<dd>Range in which 95% of the true population mean is likely to lie.
-CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
-May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96</dd>
+<dd><p class="first">Range in which 95% of the true population mean is likely to lie.</p>
+<div class="math notranslate nohighlight">
+\[CI = [mean-1.96*SE , mean+1.96*SE]\]</div>
+<p class="last">May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96</p>
+</dd>
 </dl>
 </div>
 </div>
@@ -236,10 +233,10 @@ May not be good for small sample sized and very non normal distributions. In tha
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="hypothesisTesting.html" class="btn btn-neutral float-right" title="Hypothesis Testing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="hypothesisTesting.html" class="btn btn-neutral float-right" title="Hypothesis Testing Steps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="readme.html" class="btn btn-neutral" title="statsElements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Indices and tables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

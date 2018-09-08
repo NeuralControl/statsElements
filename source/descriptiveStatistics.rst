@@ -42,9 +42,7 @@ Normal (=Gaussian) distribution
 
     src:wikipedia/Normal_distribution
 
-Central Limit Theorem
-    given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
- 
+
 Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
  
@@ -56,6 +54,7 @@ Standard Error
 
 95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
+
     .. math::
         CI = [mean-1.96*SE , mean+1.96*SE]
 

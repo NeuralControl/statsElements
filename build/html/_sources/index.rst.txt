@@ -4,12 +4,10 @@
    :maxdepth: 5
    :caption: Contents:
 
-   readme
    descriptiveStatistics
    hypothesisTesting
    tools
    examples
-
 
 Indices and tables
 ==================

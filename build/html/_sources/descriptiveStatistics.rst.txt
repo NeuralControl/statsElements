@@ -1,23 +1,19 @@
 Descriptive Statistics
 ======================
-
-Measuring Location
-------------------
 .. figure:: img/modeMedianMean.png
     :figwidth: 150px
     :align: right
 
-    src: wikipedia/probability_density_function
+    wikipedia/probability_density_function
 
-Mean
-    Sum observations / number of observations
-Median
-    Central Value (less sensitive to outliers)
+Measuring Location
+------------------
 Mode
     Most common value
-
-
-
+Median
+    Central Value (less sensitive to outliers)
+Mean
+    Sum observations / number of observations
 
 Measuring Variability
 ---------------------
@@ -33,9 +29,6 @@ Standard Deviation
     .. math::
             std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}
 
-Variance
-    squared standard deviation
-
 Distributions
 -------------
 Normal (=Gaussian) distribution
@@ -49,9 +42,7 @@ Normal (=Gaussian) distribution
 
     src:wikipedia/Normal_distribution
 
-Central Limit Theorem
-    given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
- 
+
 Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
  
@@ -63,5 +54,8 @@ Standard Error
 
 95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
-    CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
+
+    .. math::
+        CI = [mean-1.96*SE , mean+1.96*SE]
+
     May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96

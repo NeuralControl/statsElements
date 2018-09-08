@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Hypothesis Testing &mdash; statsElements  documentation</title>
+  <title>Hypothesis Testing Steps &mdash; statsElements  documentation</title>
   
 
   
@@ -88,23 +88,21 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="readme.html">statsElements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="descriptiveStatistics.html">Descriptive Statistics</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Hypothesis Testing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#steps">Steps</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#define-the-problem">Define the Problem</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#establish-the-hypothesis">Establish the Hypothesis</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#state-the-hypotheses">State the Hypotheses</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#select-the-appropriate-statistical-test">Select the appropriate statistical test</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#state-the-desired-alpha-and-beta">State the desired Alpha and Beta</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#establish-the-effect-size">Establish the Effect Size</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#create-sampling-plan-determine-sample-size">Create Sampling Plan, determine sample size</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#collect-and-record-data">Collect and record data</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#check-the-tests-assumptions-normality-plot">Check the tests assumptions, Normality plot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#calculate-the-test-statistic">Calculate the test statistic</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#determine-the-p-value">Determine the p-value</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hypothesis Testing Steps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#define-the-problem">1. Define the Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#state-the-hypotheses">2. State the Hypotheses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#select-the-appropriate-statistical-test">3. Select the appropriate statistical test</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#b-parametric-vs-nonparametric-test">b. Parametric vs Nonparametric test</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#state-the-desired-alpha-and-beta">4. State the desired Alpha and Beta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#establish-the-effect-size">Establish the Effect Size</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-sampling-plan-determine-sample-size">Create Sampling Plan, determine sample size</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collect-and-record-data">Collect and record data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#check-the-tests-assumptions-normality-plot">Check the tests assumptions, Normality plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#calculate-the-test-statistic">Calculate the test statistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#determine-the-p-value">Determine the p-value</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tools.html">Useful Tools</a></li>
@@ -153,7 +151,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Hypothesis Testing</li>
+      <li>Hypothesis Testing Steps</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -172,48 +170,97 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="hypothesis-testing">
-<h1>Hypothesis Testing<a class="headerlink" href="#hypothesis-testing" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="steps">
-<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="hypothesis-testing-steps">
+<h1>Hypothesis Testing Steps<a class="headerlink" href="#hypothesis-testing-steps" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="define-the-problem">
-<h3>Define the Problem<a class="headerlink" href="#define-the-problem" title="Permalink to this headline">¶</a></h3>
+<h2>1. Define the Problem<a class="headerlink" href="#define-the-problem" title="Permalink to this headline">¶</a></h2>
 <p>The first step is to clearly define what we want to test and how we want to test it
-We then clearly define the variables that will be used</p>
-</div>
-<div class="section" id="establish-the-hypothesis">
-<h3>Establish the Hypothesis<a class="headerlink" href="#establish-the-hypothesis" title="Permalink to this headline">¶</a></h3>
-<p>(left-tailed, right-tailed, or two tailed test)
-Left Tail test</p>
-<blockquote>
-<div>Parameter &lt; given value</div></blockquote>
-<dl class="docutils">
-<dt>Right Tail test</dt>
-<dd>Parameter &gt; given value</dd>
-<dt>Two tailed test</dt>
-<dd>Parameter doesn’t equal value</dd>
-</dl>
-<p>In formulating a one sided hypothesis, we need to remember that rejecting Ho is always a strong conclusion. So we should put the statement that is important in the alternative hypothesis.</p>
+We then clearly define the data that will be used.
+There are four basic data types:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="22%" />
+<col width="24%" />
+<col width="22%" />
+<col width="19%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&#160;</th>
+<th class="head" colspan="2">Scale</th>
+<th class="head" colspan="2">Categorical</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>&#160;</td>
+<td><strong>Continuous</strong></td>
+<td><strong>Discrete</strong></td>
+<td><strong>Ordinal</strong></td>
+<td><strong>Nominal</strong></td>
+</tr>
+<tr class="row-odd"><td>Data</td>
+<td>takes any value</td>
+<td>integers</td>
+<td>obvious order</td>
+<td>unordered</td>
+</tr>
+<tr class="row-even"><td>Example</td>
+<td>height</td>
+<td>number of children</td>
+<td>low,medium,high</td>
+<td>red,green,blue</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="state-the-hypotheses">
-<h3>State the Hypotheses<a class="headerlink" href="#state-the-hypotheses" title="Permalink to this headline">¶</a></h3>
-<p>State the Null and Alternative Hypothesis (Ha)
-- Null Hypothesis (Ho): An hypothesis associated with a contradiction to a theory we want to prove
-- Alternative Hypothesis (Ha): An hypothesis associated with a theory we want to prove</p>
+<h2>2. State the Hypotheses<a class="headerlink" href="#state-the-hypotheses" title="Permalink to this headline">¶</a></h2>
+<p>Then we state the Null (Ho) and the Alternative Hypothesis (Ha)</p>
+<ul class="simple">
+<li>Null Hypothesis (Ho): An hypothesis associated with a contradiction to a theory we want to prove</li>
+<li>Alternative Hypothesis (Ha): An hypothesis associated with a theory we want to prove</li>
+</ul>
 </div>
 <div class="section" id="select-the-appropriate-statistical-test">
-<h3>Select the appropriate statistical test<a class="headerlink" href="#select-the-appropriate-statistical-test" title="Permalink to this headline">¶</a></h3>
-<p>parametric vs non parametric
-parametric test when:
-- Normally distributed data
-- sample size is large enough to satisfy central limit theorem</p>
+<h2>3. Select the appropriate statistical test<a class="headerlink" href="#select-the-appropriate-statistical-test" title="Permalink to this headline">¶</a></h2>
+<p>We then need to choose a statistical test.
+a. Tails
+……..
+<strong>one-sided test</strong>: We want to test if a parameter is inferior to a reference value
+or we want to test if it is superior to a reference value.</p>
+<p><strong>two-sided test</strong>: We want to test if a parameter doesn’t equal a reference value</p>
+<div class="section" id="b-parametric-vs-nonparametric-test">
+<h3>b. Parametric vs Nonparametric test<a class="headerlink" href="#b-parametric-vs-nonparametric-test" title="Permalink to this headline">¶</a></h3>
+<p>Nonparametric tests do not assume that data follow a normal distribution.
+We can use parametric tests on non normal data, but the statistical power of the results will be reduced
+So we use a parametric test when:
+- Data are normally distributed
+- Sample size is large enough to satisfy the central limit theorem</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">We can use a parametric test on non gaussian data, but we will reduce statistical power</p>
+<p><strong>Central Limit Theorem</strong>:</p>
+<p class="last">Given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.</p>
+</div>
+<dl class="docutils">
+<dt><strong>Parametric Tests</strong></dt>
+<dd><ul class="first last simple">
+<li>Perform well with skewed and non normal distributions if the sample size is large enough</li>
+<li>Perform well when the spread of each group is different (not always the case on nonparametric)</li>
+<li>Stronger statistical power</li>
+</ul>
+</dd>
+<dt><strong>Nonparametric Tests</strong></dt>
+<dd><ul class="first last simple">
+<li>Chosen when median represents the population better than the mean (e.g. many outliers)</li>
+<li>Chosen when we have a small sample size</li>
+<li>Chosen when we have ordinal data, ranked data, or outliers that we can’t remove</li>
+</ul>
+</dd>
+</dl>
 </div>
 </div>
 <div class="section" id="state-the-desired-alpha-and-beta">
-<h3>State the desired Alpha and Beta<a class="headerlink" href="#state-the-desired-alpha-and-beta" title="Permalink to this headline">¶</a></h3>
+<h2>4. State the desired Alpha and Beta<a class="headerlink" href="#state-the-desired-alpha-and-beta" title="Permalink to this headline">¶</a></h2>
 <table border="1" class="docutils">
 <colgroup>
 <col width="28%" />
@@ -241,29 +288,29 @@ parametric test when:
 </dl>
 </div>
 <div class="section" id="establish-the-effect-size">
-<h3>Establish the Effect Size<a class="headerlink" href="#establish-the-effect-size" title="Permalink to this headline">¶</a></h3>
+<h2>Establish the Effect Size<a class="headerlink" href="#establish-the-effect-size" title="Permalink to this headline">¶</a></h2>
 <p>asd</p>
 </div>
 <div class="section" id="create-sampling-plan-determine-sample-size">
-<h3>Create Sampling Plan, determine sample size<a class="headerlink" href="#create-sampling-plan-determine-sample-size" title="Permalink to this headline">¶</a></h3>
+<h2>Create Sampling Plan, determine sample size<a class="headerlink" href="#create-sampling-plan-determine-sample-size" title="Permalink to this headline">¶</a></h2>
 <p>asd</p>
 </div>
 <div class="section" id="collect-and-record-data">
-<h3>Collect and record data<a class="headerlink" href="#collect-and-record-data" title="Permalink to this headline">¶</a></h3>
+<h2>Collect and record data<a class="headerlink" href="#collect-and-record-data" title="Permalink to this headline">¶</a></h2>
 <p>asd</p>
 </div>
 <div class="section" id="check-the-tests-assumptions-normality-plot">
-<h3>Check the tests assumptions, Normality plot<a class="headerlink" href="#check-the-tests-assumptions-normality-plot" title="Permalink to this headline">¶</a></h3>
+<h2>Check the tests assumptions, Normality plot<a class="headerlink" href="#check-the-tests-assumptions-normality-plot" title="Permalink to this headline">¶</a></h2>
 <p>asd</p>
 </div>
 <div class="section" id="calculate-the-test-statistic">
-<h3>Calculate the test statistic<a class="headerlink" href="#calculate-the-test-statistic" title="Permalink to this headline">¶</a></h3>
+<h2>Calculate the test statistic<a class="headerlink" href="#calculate-the-test-statistic" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Test Statistic: Value calculated from a sample often to summarize the sample</li>
 </ul>
 </div>
 <div class="section" id="determine-the-p-value">
-<h3>Determine the p-value<a class="headerlink" href="#determine-the-p-value" title="Permalink to this headline">¶</a></h3>
+<h2>Determine the p-value<a class="headerlink" href="#determine-the-p-value" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
 <dt>P-value</dt>
 <dd><ul class="first last simple">
@@ -274,7 +321,6 @@ parametric test when:
 </dl>
 <p>If p-Value is &lt; than alpha-risk, reject Ho and accept Ha</p>
 <p>If p-Value is &gt; than alpha-risk, fail to reject the Null, Ho</p>
-</div>
 </div>
 </div>
 
