@@ -27,18 +27,12 @@ Normal (=Gaussian) distribution
     Other distributions tend to normalize when we increase sample size.
     Entirely defined by two parameters: means and std.
 
-    .. image:: img/normalDistribution.png
-       :width: 100px
-       :align: right
-
-https://en.wikipedia.org/wiki/Normal_distribution
-
 
 .. figure:: img/normalDistribution.png
        :width: 100px
        :align: right
 
-   This is the caption of the figure (a simple paragraph).
+   https://en.wikipedia.org/wiki/Normal_distribution
 
    The legend consists of all elements after the caption.  In this
    case, the legend consists of this paragraph and the following
