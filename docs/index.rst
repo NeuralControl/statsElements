@@ -5,14 +5,10 @@
    :caption: Contents:
 
    readme
+   descriptiveStatistics
    hypothesisTesting
    tools
    examples
-
-
-
-.. include:: readme.rst
-.. include:: hypothesisTesting.rst
 
 
 Indices and tables

@@ -19,11 +19,14 @@ Right Tail test
 Two tailed test
     Parameter doesn’t equal value
 
+In formulating a one sided hypothesis, we need to remember that rejecting Ho is always a strong conclusion. So we should put the statement that is important in the alternative hypothesis.
+ 
 State the Hypotheses
 ..............................
 State the Null and Alternative Hypothesis (Ha)
 - Null Hypothesis (Ho): An hypothesis associated with a contradiction to a theory we want to prove
 - Alternative Hypothesis (Ha): An hypothesis associated with a theory we want to prove
+
 
 Select the appropriate statistical test
 .......................................
