@@ -32,7 +32,6 @@ Distributions
 
    src:wikipedia/Normal_distribution
 
-
 Normal (=Gaussian) distribution
     Most common, unimodal, symmetrical.
     Other distributions tend to normalize when we increase sample size.
