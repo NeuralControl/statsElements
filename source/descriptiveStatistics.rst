@@ -17,6 +17,8 @@ Mode
     Most common value
 
 
+
+
 Measuring Variability
 ---------------------
 Range
@@ -27,7 +29,10 @@ Interquartile Range
     Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers
 Standard Deviation
     Average deviation from the mean. Measures homogeneity of individual values.
-    std = sqrt( (sum(xi-xm)^2)/(n-1) )
+
+    .. math::
+            std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}
+
 Variance
     squared standard deviation
 
@@ -50,11 +55,13 @@ Central Limit Theorem
 Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
  
-Standard error (SE)
+Standard Error
     Standard deviation of the sampling distribution of a statistic, most commonly of the mean. It can be seen as how far the sample mean is likely to be from the population mean
-    SE = std(xi)/sqrt(#xi)
+
+    .. math::
+        SE =  \frac{std}{\sqrt{n}}
 
 95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
-    CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
+    CI = [mean-1.96*SE , mean+1.96*SE]
     May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96

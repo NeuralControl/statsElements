@@ -166,7 +166,7 @@
 <div class="section" id="measuring-location">
 <h2>Measuring Location<a class="headerlink" href="#measuring-location" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-right" id="id1" style="width: 150px">
-<img alt="img/modeMedianMean.png" src="img/modeMedianMean.png" />
+<img alt="_images/modeMedianMean.png" src="_images/modeMedianMean.png" />
 <p class="caption"><span class="caption-text">src: wikipedia/probability_density_function</span></p>
 </div>
 <dl class="docutils">
@@ -188,8 +188,10 @@
 <dt>Interquartile Range</dt>
 <dd>Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers</dd>
 <dt>Standard Deviation</dt>
-<dd>Average deviation from the mean. Measures homogeneity of individual values.
-std = sqrt( (sum(xi-xm)^2)/(n-1) )</dd>
+<dd><p class="first">Average deviation from the mean. Measures homogeneity of individual values.</p>
+<div class="last math notranslate nohighlight">
+\[std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}\]</div>
+</dd>
 <dt>Variance</dt>
 <dd>squared standard deviation</dd>
 </dl>
@@ -203,7 +205,7 @@ Other distributions tend to normalize when we increase sample size.
 Entirely defined by two parameters: means and std.</dd>
 </dl>
 <div class="figure align-center" id="id2" style="width: 400px">
-<img alt="img/normalDistribution.png" src="img/normalDistribution.png" />
+<img alt="_images/normalDistribution.png" src="_images/normalDistribution.png" />
 <p class="caption"><span class="caption-text">src:wikipedia/Normal_distribution</span></p>
 </div>
 <dl class="docutils">
@@ -211,9 +213,11 @@ Entirely defined by two parameters: means and std.</dd>
 <dd>given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.</dd>
 <dt>Law Of Large Numbers</dt>
 <dd>As a sample size grows, its mean will get closer and closer to the average of the whole population.</dd>
-<dt>Standard error&nbsp;(SE)</dt>
-<dd>Standard deviation&nbsp;of the&nbsp;sampling distribution&nbsp;of a&nbsp;statistic,&nbsp;most commonly of the mean.&nbsp;It can be seen as how far the sample mean is likely to be from the population mean
-SE = std(xi)/sqrt(#xi)</dd>
+<dt>Standard Error</dt>
+<dd><p class="first">Standard deviation&nbsp;of the&nbsp;sampling distribution&nbsp;of a&nbsp;statistic,&nbsp;most commonly of the mean.&nbsp;It can be seen as how far the sample mean is likely to be from the population mean</p>
+<div class="last math notranslate nohighlight">
+\[SE =  \frac{std}{\sqrt{n}}\]</div>
+</dd>
 <dt>95% Confidence Interval</dt>
 <dd>Range in which 95% of the true population mean is likely to lie.
 CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
