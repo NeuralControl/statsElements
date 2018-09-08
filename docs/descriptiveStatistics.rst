@@ -17,6 +17,18 @@ Mode
     Most common value
 
 The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+.. epigraph::
+
+   No matter where you go, there you are.
+
+   -- Buckaroo Banzai
+
+.. highlights::
+
+   No matter where you go, there you are.
+
+   -- Buckaroo Banzai
+
 
 Measuring Variability
 ---------------------
