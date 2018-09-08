@@ -16,6 +16,8 @@ Median
 Mode
     Most common value
 
+The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+
 Measuring Variability
 ---------------------
 Range
@@ -38,7 +40,7 @@ Normal (=Gaussian) distribution
     Entirely defined by two parameters: means and std.
 
 .. figure:: img/normalDistribution.png
-    :figwidth: 300px
+    :figwidth: 400px
     :align: center
 
     src:wikipedia/Normal_distribution
