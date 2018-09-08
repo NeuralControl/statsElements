@@ -8,11 +8,10 @@ Median: Central Value (less sensitive to outliers)
 Mode: Most common value
 
 .. figure:: img/modeMedianMean.png
+    :figwidth: 150px
+    :align: right
 
-       :figwidth: 200px
-       :align: center
-
-   https://en.wikipedia.org/wiki/Probability_density_function
+    https://en.wikipedia.org/wiki/Probability_density_function
 
 
 Measuring Variability
@@ -31,6 +30,8 @@ Normal (=Gaussian) distribution
     Entirely defined by two parameters: means and std.
 
 .. figure:: img/normalDistribution.png
+    :figwidth: 150px
+    :align: right
 
    https://en.wikipedia.org/wiki/Normal_distribution
 
