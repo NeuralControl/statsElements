@@ -7,11 +7,12 @@ Mean: Sum observations / number of observations
 Median: Central Value (less sensitive to outliers)
 Mode: Most common value
 
-.. image:: img/modeMedianMean.png
-       :width: 200px
-       :align: right
+.. figure:: img/modeMedianMean.png
+       :figwidth: 200px
+       :align: center
 
-https://en.wikipedia.org/wiki/Probability_density_function
+   https://en.wikipedia.org/wiki/Probability_density_function
+
 
 Measuring Variability
 ---------------------
