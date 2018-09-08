@@ -32,19 +32,17 @@ Normal (=Gaussian) distribution
 
 https://en.wikipedia.org/wiki/Normal_distribution
 
-
-
-Central Limit Theorem:
+Central Limit Theorem
     given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
  
-Law Of Large Numbers:
+Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
  
-Standard error (SE):
+Standard error (SE)
     Standard deviation of the sampling distribution of a statistic, most commonly of the mean. It can be seen as how far the sample mean is likely to be from the population mean
     SE = std(xi)/sqrt(#xi)
  
-95% Confidence Interval:
+95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
     CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
     May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96
