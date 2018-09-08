@@ -4,7 +4,7 @@ Descriptive Statistics
     :figwidth: 150px
     :align: right
 
-    src: wikipedia/probability_density_function\
+    wikipedia/probability_density_function
 
 Measuring Location
 ------------------
@@ -28,9 +28,6 @@ Standard Deviation
 
     .. math::
             std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}
-
-Variance
-    squared standard deviation
 
 Distributions
 -------------
@@ -59,5 +56,7 @@ Standard Error
 
 95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
-    CI = [mean-1.96*SE , mean+1.96*SE]
+    .. math::
+        CI = [mean-1.96*SE , mean+1.96*SE]
+
     May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96
