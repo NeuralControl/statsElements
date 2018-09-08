@@ -5,8 +5,11 @@ Steps
 -----
 
 1) Define the Problem
-2) State the Objectives
-3) Establish the Hypothesis (left-tailed, right-tailed, or two tailed test).
+The first step is to clearly define what we want to test and how we want to test it
+We then clearly define the variables that will be used
+
+2) Establish the Hypothesis (left-tailed, right-tailed, or two tailed test)
+
 4) State the Null Hypothesis (Ho)
 5) State the Alternative Hypothesis (Ha)
 6) Select the appropriate statistical test
