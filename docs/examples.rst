@@ -23,7 +23,7 @@ header2
 ------------
 
 header3
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^
 asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc
 asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc
 asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc
@@ -31,7 +31,4 @@ asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asdzxc asd
 
 
 .. image:: img/maj251sFn.png
-    :width: 500pt
-
-.. image:: img/maj251sKbd.png
     :width: 500pt
