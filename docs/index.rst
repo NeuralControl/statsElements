@@ -11,11 +11,6 @@
 
    readme
    examples
-   note
-   chord
-   scale
-   progression
-   annotate
 
 
 
