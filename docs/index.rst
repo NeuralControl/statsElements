@@ -6,7 +6,9 @@
 
    readme
    hypothesisTesting
+   tools
    examples
+
 
 
 .. include:: readme.rst
