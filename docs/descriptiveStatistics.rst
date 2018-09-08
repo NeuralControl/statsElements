@@ -26,11 +26,9 @@ Interquartile Range
     Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers
 Standard Deviation
     Average deviation from the mean. Measures homogeneity of individual values.
-    :math: std = \sqrt( (\sum(xi-xm)^2)/(n-1) )
+    std = sqrt( (sum(xi-xm)^2)/(n-1) )
 Variance
-    :math: std^2
-
-Or if you want to write inline you can use this:  :math:`\\frac{ \\sum_{t=0}^{N}f(t,k) }{N}`
+    squared standard deviation
 
 Distributions
 -------------
@@ -53,7 +51,7 @@ Law Of Large Numbers
  
 Standard error (SE)
     Standard deviation of the sampling distribution of a statistic, most commonly of the mean. It can be seen as how far the sample mean is likely to be from the population mean
-    :math: SE = std(xi)/\sqrt(#xi)
+    SE = std(xi)/sqrt(#xi)
 
 95% Confidence Interval
     Range in which 95% of the true population mean is likely to lie.
