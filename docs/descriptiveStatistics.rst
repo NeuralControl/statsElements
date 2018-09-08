@@ -3,15 +3,17 @@ Descriptive Statistics
 
 Measuring Location
 ------------------
-Mean: Sum observations / number of observations
-Median: Central Value (less sensitive to outliers)
-Mode: Most common value
-
 .. figure:: img/modeMedianMean.png
     :figwidth: 150px
     :align: right
 
-    https://en.wikipedia.org/wiki/Probability_density_function
+    src: wikipedia
+
+
+Mean: Sum observations / number of observations
+Median: Central Value (less sensitive to outliers)
+Mode: Most common value
+
 
 
 Measuring Variability
@@ -24,19 +26,18 @@ Variance: std^2
 
 Distributions
 -------------
+.. figure:: img/normalDistribution.png
+    :figwidth: 150px
+    :align: right
+
+   src:wikipedia/Normal_distribution
+
+
 Normal (=Gaussian) distribution
     Most common, unimodal, symmetrical.
     Other distributions tend to normalize when we increase sample size.
     Entirely defined by two parameters: means and std.
 
-.. figure:: img/normalDistribution.png
-    :figwidth: 150px
-    :align: right
-
-   https://en.wikipedia.org/wiki/Normal_distribution
-
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
 
 
 Central Limit Theorem
