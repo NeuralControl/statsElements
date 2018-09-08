@@ -33,6 +33,17 @@ Normal (=Gaussian) distribution
 
 https://en.wikipedia.org/wiki/Normal_distribution
 
+
+.. figure:: img/normalDistribution.png
+       :width: 100px
+       :align: right
+
+   This is the caption of the figure (a simple paragraph).
+
+   The legend consists of all elements after the caption.  In this
+   case, the legend consists of this paragraph and the following
+
+
 Central Limit Theorem
     given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
  
