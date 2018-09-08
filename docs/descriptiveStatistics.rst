@@ -9,23 +9,26 @@ Measuring Location
 
     src: wikipedia/probability_density_function
 
-Mean: Sum observations / number of observations
-
-Median: Central Value (less sensitive to outliers)
-
-Mode: Most common value
+Mean
+    Sum observations / number of observations
+Median
+    Central Value (less sensitive to outliers)
+Mode
+    Most common value
 
 Measuring Variability
 ---------------------
-Range: Largest observation – smallest observation
-
-Quantiles: Split data like into equally numbered groups. Median into two, quartiles into 4
-
-Interquartile Range: Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers
-
-Standard Deviation: Average deviation from the mean. Measures homogeneity of individual values. std = sqrt( (sum(xi-xm)^2)/(n-1) )
-
-Variance: std^2
+Range
+    Largest observation – smallest observation
+Quantiles
+    Split data like into equally numbered groups. Median into two, quartiles into 4
+Interquartile Range
+    Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers
+Standard Deviation
+    Average deviation from the mean. Measures homogeneity of individual values.
+    .. math:: std = \sqrt( (\sum(xi-xm)^2)/(n-1) )
+Variance
+    .. math:: std^2
 
 
 Distributions
