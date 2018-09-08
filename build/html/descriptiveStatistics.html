@@ -1,0 +1,298 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Descriptive Statistics &mdash; statsElements  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="statsElements  documentation" href="index.html"/>
+        <link rel="next" title="Hypothesis Testing" href="hypothesisTesting.html"/>
+        <link rel="prev" title="statsElements" href="readme.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> statsElements
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">statsElements</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Descriptive Statistics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#measuring-location">Measuring Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#measuring-variability">Measuring Variability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#distributions">Distributions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="hypothesisTesting.html">Hypothesis Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tools.html">Useful Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">statsElements</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Descriptive Statistics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/descriptiveStatistics.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="descriptive-statistics">
+<h1>Descriptive Statistics<a class="headerlink" href="#descriptive-statistics" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="measuring-location">
+<h2>Measuring Location<a class="headerlink" href="#measuring-location" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-right" id="id1" style="width: 150px">
+<img alt="img/modeMedianMean.png" src="img/modeMedianMean.png" />
+<p class="caption"><span class="caption-text">src: wikipedia/probability_density_function</span></p>
+</div>
+<dl class="docutils">
+<dt>Mean</dt>
+<dd>Sum observations / number of observations</dd>
+<dt>Median</dt>
+<dd>Central Value (less sensitive to outliers)</dd>
+<dt>Mode</dt>
+<dd>Most common value</dd>
+</dl>
+</div>
+<div class="section" id="measuring-variability">
+<h2>Measuring Variability<a class="headerlink" href="#measuring-variability" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Range</dt>
+<dd>Largest observation – smallest observation</dd>
+<dt>Quantiles</dt>
+<dd>Split data like into equally numbered groups. Median into two, quartiles into 4</dd>
+<dt>Interquartile Range</dt>
+<dd>Range between top and bottom quartile. Shows where the middle 50% of the data lies. Not influenced by outliers</dd>
+<dt>Standard Deviation</dt>
+<dd>Average deviation from the mean. Measures homogeneity of individual values.
+std = sqrt( (sum(xi-xm)^2)/(n-1) )</dd>
+<dt>Variance</dt>
+<dd>squared standard deviation</dd>
+</dl>
+</div>
+<div class="section" id="distributions">
+<h2>Distributions<a class="headerlink" href="#distributions" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Normal (=Gaussian) distribution</dt>
+<dd>Most common, unimodal, symmetrical.
+Other distributions tend to normalize when we increase sample size.
+Entirely defined by two parameters: means and std.</dd>
+</dl>
+<div class="figure align-center" id="id2" style="width: 400px">
+<img alt="img/normalDistribution.png" src="img/normalDistribution.png" />
+<p class="caption"><span class="caption-text">src:wikipedia/Normal_distribution</span></p>
+</div>
+<dl class="docutils">
+<dt>Central Limit Theorem</dt>
+<dd>given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.</dd>
+<dt>Law Of Large Numbers</dt>
+<dd>As a sample size grows, its mean will get closer and closer to the average of the whole population.</dd>
+<dt>Standard error&nbsp;(SE)</dt>
+<dd>Standard deviation&nbsp;of the&nbsp;sampling distribution&nbsp;of a&nbsp;statistic,&nbsp;most commonly of the mean.&nbsp;It can be seen as how far the sample mean is likely to be from the population mean
+SE = std(xi)/sqrt(#xi)</dd>
+<dt>95% Confidence Interval</dt>
+<dd>Range in which 95% of the true population mean is likely to lie.
+CI = [SampleMean-1.96*SE , SampleMean+1.96*SE]
+May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="hypothesisTesting.html" class="btn btn-neutral float-right" title="Hypothesis Testing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="readme.html" class="btn btn-neutral" title="statsElements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, remy wahnoun.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
