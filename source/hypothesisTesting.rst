@@ -11,7 +11,7 @@ Planning carefully the way we will analyze data is very important to obtain resu
     * If planning a study or QTP (a-priori), estimate the minimum number of samples required to obtain significance. If data is already available (post-hoc), we can estimate the power of the test on the provided data.
     * Run the test and conclude.
 
-I. Define the problem
+1. Define the problem
 ---------------------
 The first step is to clearly define what we want to test and how we want to test it.
 This step is crucial as everything else will depend on it.
@@ -30,7 +30,7 @@ There are four basic data types:
 +-----------+------------------+--------------------+------------------+----------------+
 
 
-II. State the Hypotheses
+2. State the Hypotheses
 -----------------------
 Then we state the Null (Ho) and the Alternative Hypothesis (Ha).
 
@@ -39,11 +39,11 @@ Null Hypothesis (Ho)
 Alternative Hypothesis (Ha)
     An hypothesis associated with a theory we want to prove
 
-III. Select the appropriate statistical test
+3. Select the appropriate statistical test
 ------------------------------------------
 We then need to choose a statistical test.
 
-1. Tails
+a. Tails
 ........
 
 **One-sided test**
@@ -51,7 +51,7 @@ We then need to choose a statistical test.
 **Two-sided test**
     We want to test if a parameter doesn’t equal a reference value
 
-2. Parametric vs Nonparametric test
+b. Parametric vs Nonparametric test
 ...................................
 Nonparametric tests do not assume that data follow a normal distribution.
 We can use parametric tests on non normal data, but the statistical power of the results will be reduced
@@ -74,20 +74,20 @@ So we use a parametric test when:
     - Chosen when we have a small sample size
     - Chosen when we have ordinal data, ranked data, or outliers that we can't remove
 
-3. Choose the right test
+c. Choose the right test
 ........................
 This will be described in the :ref:`statisticalTests` section
 
-IV. Check the tests assumptions
+4. Check the tests assumptions
 -------------------------------
 Most tests make specific assumptions on the data. Some are more sensitive to deviation from their assumptions than others.
 See the :ref:`statisticalTests` section for info on specific tests. This section also shows how to visualize our data distribution against for example a normal distribution using a QQ-plot, or to test its fit.
 
 
-V. Power Analysis and Statistical Power
+5. Power Analysis and Statistical Power
 ---------------------------------------
 
-1. State the desired :math:`{\alpha}` and :math:`{\beta}`
+a. State the desired :math:`{\alpha}` and :math:`{\beta}`
 .........................................................
 
 +-----------+--------------+---------------+
@@ -108,21 +108,21 @@ Power, 1-:math:`{\beta}`
 .. WARNING::
     When a test outcome is not significant, it doesnt mean that Ho is True, the test is inconclusive
 
-2. Establish the Effect Size
+b. Establish the Effect Size
 ............................
 The effect size is a measure of the strength of the effect of an independent variable on a dependant variable.
 It helps assess whether a statistically significant result is meaningful.
 We can use for example the :ref:`g*power` software to calculate effect size.
 For reference, <0.3 is often seen as a small effect, 0.5 seen as medium and >.8 as large (Cohen).
 
-3. Create Sampling Plan, determine sample size
+c. Create Sampling Plan, determine sample size
 ..............................................
 When the data is not yet available, for example when we are preparing a clinical study, we want to estimate how many samples (or subjects) we need to obtain significant results.
 This is the hardest part as it often requires prior knowledge on the results.
 This can come from a preliminary study, or from the literature.
 
 
-VI. Run the test
+5. Run the test
 ----------------
 Now we need to run the chosen test, estimate the test statistic, determine the p-value and conclude
 

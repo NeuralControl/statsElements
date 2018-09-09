@@ -1,13 +1,12 @@
 
 .. toctree::
-   :hidden:
-   :maxdepth: 5
-   :caption: Contents:
+    :hidden:
+    :maxdepth: 5
+    :caption: Contents:
 
     descriptiveStatistics
     hypothesisTesting
-    tools
-    examples
+    statisticalTests
     tools
     references
 
