@@ -85,7 +85,7 @@ html_theme = "sphinx_rtd_theme"
 #
 html_theme_options = {
     'navigation_depth': -1,
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'analytics_id': 'UA-125437852-1',
 }
