@@ -4,9 +4,11 @@
     :maxdepth: 5
     :caption: Contents:
 
+    statisticalInference
     descriptiveStatistics
-    hypothesisTesting
     statisticalTests
+    examplesStatisticalInference
+    examplesStudyDesign
     tools
     references
 

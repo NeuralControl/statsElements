@@ -1,5 +1,5 @@
-Hypothesis Testing
-==================
+Statistical Inference
+=====================
 
 Planning carefully the way we will analyze data is very important to obtain results that we can trust.
 
@@ -15,6 +15,15 @@ Planning carefully the way we will analyze data is very important to obtain resu
 ---------------------
 The first step is to clearly define what we want to test and how we want to test it.
 This step is crucial as everything else will depend on it.
+
+Population
+    This is the total set of observations that can be made. For example if we want to know the average weight of humans, this is the average of the weight of every human on earth.
+
+Sample
+    This is the set of collected data. In this example, this is the weights of a small group of randomly selected people.
+
+We want to infer information on the population based on a selected sample.
+
 
 We then describe the data that will be used.
 There are four basic data types:
@@ -82,6 +91,11 @@ This will be described in the :ref:`statisticalTests` section
 -------------------------------
 Most tests make specific assumptions on the data. Some are more sensitive to deviation from their assumptions than others.
 See the :ref:`statisticalTests` section for info on specific tests. This section also shows how to visualize our data distribution against for example a normal distribution using a QQ-plot, or to test its fit.
+Examples of assumptions:
+    Independence of observations from each other
+    Independence of observational error from confounding effect
+    Normality of observations
+
 
 
 5. Power Analysis and Statistical Power
@@ -106,7 +120,8 @@ Power, 1-:math:`{\beta}`
     Probability of correctly rejecting a False hypothesis.
 
 .. WARNING::
-    When a test outcome is not significant, it doesnt mean that Ho is True, the test is inconclusive
+    - When a test outcome is not significant, it doesnt mean that Ho is True, the test is inconclusive.
+    - If several concurrent tests are performed, consider a Bonferroni correction (i.e. divide the significance level by the number of concurrent tests)
 
 b. Establish the Effect Size
 ............................

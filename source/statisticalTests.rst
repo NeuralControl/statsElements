@@ -23,3 +23,9 @@ When plotting a QQ-plot against a normal distribution, if all the samples fall c
 <ADD STATISTICAL TESTS FOR NORMALITY FROM ONENOTE>
 
 
+Examples of Test Selection
+--------------------------
+Is there a statistically significant relationship between participants’ level of education (high school, bachelor’s, or graduate degree) and their starting salary?
+    Spearman
+Is there a statistically significant relationship between horse’s finishing position a race and horse’s age?
+    Spearman

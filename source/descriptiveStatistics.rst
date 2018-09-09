@@ -1,13 +1,12 @@
 Descriptive Statistics
 ======================
 
-Measuring Location
-------------------
+Measuring Central Tendency
+--------------------------
 
 .. figure:: img/modeMedianMean.png
     :figwidth: 600px
     :align: center
-
 
 Mode
     Most common value
@@ -30,8 +29,8 @@ Standard Deviation
     .. math::
             std = \sqrt{\frac{\sum(x_i-x_{mean})^2}{n-1}}
 
-Distributions
--------------
+Distribution
+------------
 .. figure:: img/distributions.png
     :figwidth: 600px
     :align: center
@@ -67,6 +66,18 @@ Standard Error
     Range in which 95% of the true population mean is likely to lie.
 
     .. math::
-        CI = [mean-1.96*SE , mean+1.96*SE]
+        CI = [mean-1.96*\frac{std}{\sqrt{n}} , mean+1.96*\frac{std}{\sqrt{n}}]
 
-    May not be good for small sample sized and very non normal distributions. In that case we can use the t-distribution to replace the 1.96
+    May not be good for small sample size (<30) and very non normal distributions. In that case we can use the t-distribution to replace the 1.96
+
+Correlation
+-----------
+See :ref:`statisticalTests` to choose the appropriate method.
+
+Per Cohen (1992, Power primer):
+    0.0 < abs(corr) <  0.3: Weak
+    0.3 < abs(corr) <= 0.5: Moderate
+    0.5 < abs(corr) <= 0.9: Strong
+    0.9 < abs(corr) <= 1.0: Very strong
+
+We can use a scatter plot to visualize correlation.

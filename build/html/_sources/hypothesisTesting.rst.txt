@@ -82,6 +82,11 @@ This will be described in the :ref:`statisticalTests` section
 -------------------------------
 Most tests make specific assumptions on the data. Some are more sensitive to deviation from their assumptions than others.
 See the :ref:`statisticalTests` section for info on specific tests. This section also shows how to visualize our data distribution against for example a normal distribution using a QQ-plot, or to test its fit.
+Examples of assumptions:
+    Independence of observations from each other
+    Independence of observational error from confounding effect
+    Normality of observations
+
 
 
 5. Power Analysis and Statistical Power

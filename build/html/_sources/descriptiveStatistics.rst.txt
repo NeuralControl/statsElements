@@ -1,13 +1,12 @@
 Descriptive Statistics
 ======================
 
-Measuring Location
-------------------
+Measuring Central Tendency
+--------------------------
 
 .. figure:: img/modeMedianMean.png
     :figwidth: 600px
     :align: center
-
 
 Mode
     Most common value
@@ -30,8 +29,8 @@ Standard Deviation
     .. math::
             std = \sqrt{\frac{\sum(x_i-x_{mean})^2}{n-1}}
 
-Distributions
--------------
+Distribution
+------------
 .. figure:: img/distributions.png
     :figwidth: 600px
     :align: center
