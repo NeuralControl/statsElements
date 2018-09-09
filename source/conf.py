@@ -21,7 +21,7 @@
 
 
 project = 'statsElements'
-copyright = '2018, remy wahnoun'
+copyright = 'null'
 author = 'remy wahnoun'
 
 # The short X.Y version
