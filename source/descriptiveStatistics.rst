@@ -46,7 +46,7 @@ Normal (=Gaussian) distribution
     Entirely defined by two parameters: means and std.
 
 .. figure:: img/normalDistribution.png
-    :figwidth: 400px
+    :figwidth: 500px
     :align: center
 
     Normal Distribution
