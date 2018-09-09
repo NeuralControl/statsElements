@@ -42,6 +42,8 @@ Normal (=Gaussian) distribution
 
     src:wikipedia/Normal_distribution
 
+See the :ref:`statisticalTests` section for info on testing or visualizing a distribution vs another.
+
 
 Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
