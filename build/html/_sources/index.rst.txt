@@ -4,10 +4,13 @@
    :maxdepth: 5
    :caption: Contents:
 
-   descriptiveStatistics
-   hypothesisTesting
-   tools
-   examples
+    descriptiveStatistics
+    hypothesisTesting
+    tools
+    examples
+    tools
+    references
+
 
 Indices and tables
 ==================

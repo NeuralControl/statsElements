@@ -1,6 +1,8 @@
 Useful Tools
 ============
 
+.. _g*power:
+
 G*Power: Statistical Power Analyses
 -----------------------------------
 
