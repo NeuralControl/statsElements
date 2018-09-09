@@ -29,6 +29,8 @@ version = ''
 # The full version, including alpha/beta/rc tags
 release = ''
 
+def setup(app):
+    app.add_stylesheet('my_theme.css')
 
 # -- General configuration ---------------------------------------------------
 
