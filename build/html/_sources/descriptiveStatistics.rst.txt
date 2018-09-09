@@ -1,13 +1,14 @@
 Descriptive Statistics
 ======================
-.. figure:: img/modeMedianMean.png
-    :figwidth: 150px
-    :align: right
-
-    wikipedia/probability_density_function
 
 Measuring Location
 ------------------
+
+.. figure:: img/modeMedianMean.png
+    :figwidth: 600px
+    :align: center
+
+
 Mode
     Most common value
 Median
@@ -27,10 +28,18 @@ Standard Deviation
     Average deviation from the mean. Measures homogeneity of individual values.
 
     .. math::
-            std = \sqrt{\frac{\sum(xi-xm)^2}{n-1}}
+            std = \sqrt{\frac{\sum(x_i-x_{mean})^2}{n-1}}
 
 Distributions
 -------------
+.. figure:: img/distributions.png
+    :figwidth: 600px
+    :align: center
+
+    Some distributions
+
+
+
 Normal (=Gaussian) distribution
     Most common, unimodal, symmetrical.
     Other distributions tend to normalize when we increase sample size.
@@ -38,9 +47,7 @@ Normal (=Gaussian) distribution
 
 .. figure:: img/normalDistribution.png
     :figwidth: 400px
-    :align: center
-
-    src:wikipedia/Normal_distribution
+    :align: right
 
 See the :ref:`statisticalTests` section for info on testing or visualizing a distribution vs another.
 

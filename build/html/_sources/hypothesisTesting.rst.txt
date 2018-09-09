@@ -1,5 +1,5 @@
-Hypothesis Testing Steps
-========================
+Hypothesis Testing
+==================
 
 Planning carefully the way we will analyze data is very important to obtain results that we can trust.
 
