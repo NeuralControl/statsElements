@@ -47,7 +47,9 @@ Normal (=Gaussian) distribution
 
 .. figure:: img/normalDistribution.png
     :figwidth: 400px
-    :align: right
+    :align: center
+
+    Normal Distribution
 
 See the :ref:`statisticalTests` section for info on testing or visualizing a distribution vs another.
 
