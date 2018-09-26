@@ -52,10 +52,18 @@ Normal (=Gaussian) distribution
 
 See the :ref:`statisticalTests` section for info on testing or visualizing a distribution vs another.
 
-
 Law Of Large Numbers
     As a sample size grows, its mean will get closer and closer to the average of the whole population.
  
+Central Limit Theorem
+    In probability theory, the central limit theorem (CLT) establishes that, in some situations, when independent random variables are added, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed. The theorem is a key concept in probability theory because it implies that probabilistic and statistical methods that work for normal distributions can be applicable to many problems involving other types of distributions.
+
+.. figure:: img/centralLimitTheorem.png
+    :figwidth: 500px
+    :align: center
+
+    Central Limit Theorem (wiki)
+
 Standard Error
     Standard deviation of the sampling distribution of a statistic, most commonly of the mean. It can be seen as how far the sample mean is likely to be from the population mean
 
