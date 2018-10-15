@@ -84,6 +84,7 @@ Standard Error
 Correlation
 -----------
 See :ref:`statisticalTests` to choose the appropriate method.
+TODO ADD MEAT TO CORRELATION
 
 Per Cohen (1992, Power primer):
     0.0 < abs(corr) <  0.3: Weak
